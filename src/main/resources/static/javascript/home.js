@@ -7,7 +7,7 @@ if (!userId) {  // check if there is a user logged in, if not, redirect to login
      window.location.replace("http://localhost:8080/login.html")
 }
 
-// DOM Elements
+// DOM Elements - grab elements from the DOM
 const submitForm = document.getElementById("note-form")
 const noteContainer = document.getElementById("note-container")
 
